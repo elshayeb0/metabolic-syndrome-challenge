@@ -81,3 +81,12 @@ figures/generated/
 # Local-only scratch notebooks or experiments
 scratch/
 experiments/
+
+# Ignore data files
+data/*.csv
+data/raw/
+data/processed/
+
+# Ignore python artifacts
+__pycache__/
+.ipynb_checkpoints/
